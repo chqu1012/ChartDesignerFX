@@ -14,7 +14,7 @@ Editor features:
 * Autocompletion
 * templates
 
-![Application](https://github.com/chqu1012/MarkdownEditorFX/blob/main/MarkdownEditorFX/resources/01_app.png)  
+![Application](https://github.com/chqu1012/ChartDesignerFX/blob/main/ChartDesignerFX/resources/01_app.PNG)  
 
 
 ## Version
