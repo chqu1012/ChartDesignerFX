@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modul:Modul xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:modul="http://www.frateranatis.org/fx/emf/modul" id="de.dc.fx.chart.designer.ui.Chart" name="Chart">
+  <extensionPoints name="Views">
+    <units xsi:type="modul:View" id="de.dc.workbench.fx.ui.EmfPropertyView" name="Properties" uri="de.dc.workbench.fx.ui.EmfPropertyView"/>
+	<units xsi:type="modul:View" id="de.dc.workbench.fx.ui.EmfHistoryView" name="History" uri="de.dc.workbench.fx.ui.EmfHistoryView"/>
+    <units xsi:type="modul:View" id="de.dc.fx.chart.designer.ui.view.ChartProjectExplorer" name="Project Explorer" uri="de.dc.fx.chart.designer.ui.view.ChartProjectExplorer"/>
+    <units xsi:type="modul:View" id="de.dc.fx.chart.designer.ui.view.ChartOutline" name="Chart Outline" uri="de.dc.fx.chart.designer.ui.view.ChartOutline"/>
+    <units xsi:type="modul:View" id="de.dc.fx.chart.designer.ui.view.ChartDiagram" name="Chart Diagram" uri="de.dc.fx.chart.designer.ui.view.ChartDiagram"/>
+  </extensionPoints>
+  <extensionPoints name="Perspectives">
+    <units xsi:type="modul:Perspective" id="de.dc.fx.chart.designer.ui.perspective" name="Chart Perspective" 
+	    left="//@extensionPoints.0/@units.1 //@extensionPoints.0/@units.2" 
+	    topRatio="0.25"
+	    hideBottom="true"
+	    right="//@extensionPoints.0/@units.3 //@extensionPoints.0/@units.4" 
+	    bottom="//@extensionPoints.0/@units.0" 
+	    associatedEditors="//@extensionPoints.2/@units.0"
+	    />
+  </extensionPoints>
+  <extensionPoints name="Editors">
+    <units xsi:type="modul:Editor" id="de.dc.workbench.fx.ui.chart.editor.ChartEditor" name="chart Editor" uri="de.dc.workbench.fx.ui.chart.editor.ChartEditor" extension="chart"/>
+  </extensionPoints>
+  <extensionPoints name="Services">
+  </extensionPoints>
+  <extensionPoints name="Commands">
+  </extensionPoints>
+</modul:Modul>

@@ -1,0 +1,56 @@
+LineChart {
+	title: 'Hello World'
+	x-Axis: 'Year'
+	y-Axis: 'Values'
+    showLegend
+    legendSide: RIGHT
+    function{ 
+        name: Function1
+        expression: 'x*x+2'
+        start: 1
+        end: 20
+        step: 1
+    } 
+    function{ 
+        name: Function2
+        expression: '-x*x+2'
+        start: 1
+        end: 20
+        step: 1
+    }
+    function{ 
+        name: Function3
+        expression: 'x*10'
+        start: 1
+        end: 20
+        step: 1
+    } 
+    function{ 
+        name: Function4
+        expression: 'x*x'
+        start: 1
+        end: 20
+        step: 1
+    } 
+    function{ 
+        name: Function5
+        expression: 'x*x+20'
+        start: 1
+        end: 20
+        step: 1
+    }
+    function{ 
+        name: Function6
+        expression: 'x*x+40'
+        start: 1
+        end: 20
+        step: 1
+    }  
+    function{ 
+        name: Function7
+        expression: 'x*x+60'
+        start: 1
+        end: 20
+        step: 1
+    }  
+}

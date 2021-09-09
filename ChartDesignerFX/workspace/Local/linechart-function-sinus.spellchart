@@ -1,0 +1,42 @@
+AreaChart {
+	title: 'Hello World'
+	x-Axis: 'Year'
+	y-Axis: 'Values'
+    showLegend
+    legendSide: RIGHT
+    function{ 
+        name: 'Test Function'
+        expression: 'sin(x)'
+        start: 1
+        end: 20
+        step: 1
+    }  
+    function{ 
+        name: 'Cos Function'
+        expression: 'cos(x)'
+        start: 1
+        end: 20
+        step: 1
+    }  
+    function{ 
+        name: 'Cos Function'
+        expression: '0.5*cos(x)'
+        start: 1
+        end: 20
+        step: 1
+    }  
+    function{ 
+        name: 'Testing'
+        expression: '-sin(x)'
+        start: 1
+        end: 20
+        step: 1
+    }  
+    function{
+        name: testfunction 
+        expression: '-cos(x)'
+        start: 1
+        end: 20
+        step: 1
+    }  
+}

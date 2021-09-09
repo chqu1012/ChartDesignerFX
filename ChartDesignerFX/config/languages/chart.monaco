@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<monaco:Monaco xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" 
+xmlns:monaco="http://www.frateranatis.org/fx/emf/monaco" language="spellchart" fileExtension="spellchart">
+	<proposalProvider>
+	  <proposals label="AreaChart" kind="Function" insertText="AreaChart{\n\t title: ${0:chartTitle} \n\t x-Axis: ${1:xAxisLabel}\n\t y-Axis: ${2:yAxisLabel}\n\t Series{\n\t\t title: ${3:seriesName}\n\t\t(0.0, 0.0)\n\t}\n}" insertTextRules="InsertAsSnippet"/>	
+	  <proposals label="showLegend" kind="Function" insertText="showLegend" insertTextRules="InsertAsSnippet"/>		
+	  <proposals label="legendSide" kind="Function" insertText="legendSide:${0: side}" insertTextRules="InsertAsSnippet"/>	
+	  <proposals label="LEFT" kind="Function" insertText="LEFT" insertTextRules="InsertAsSnippet"/>	
+	  <proposals label="RIGHT" kind="Function" insertText="RIGHT" insertTextRules="InsertAsSnippet"/>	
+	  <proposals label="TOP" kind="Function" insertText="TOP" insertTextRules="InsertAsSnippet"/>	
+	  <proposals label="BOTTOM" kind="Function" insertText="BOTTOM" insertTextRules="InsertAsSnippet"/>	
+	  <proposals label="function" kind="Function" insertText="function{\n\texpression: ${0}\n\tstart: 1\n\tend: 20\n\tstep: 1\n}" insertTextRules="InsertAsSnippet"/>	
+	</proposalProvider>
+  
+  <tokenProvider>
+    <tokens name="custom-LineChart" pattern="LineChart" foreground="1884E7" isBold="true"/>
+    <tokens name="custom-AreaChart" pattern="AreaChart" foreground="1884E7" isBold="true"/>
+    <tokens name="custom-ScatterChart" pattern="ScatterChart" foreground="1884E7" isBold="true"/>
+    
+    <tokens name="custom-title" pattern="title" foreground="EFAD65" isBold="true"/>
+    <tokens name="custom-x-Axis" pattern="x-Axis" foreground="EFAD65" isBold="true"/>
+    <tokens name="custom-y-Axis" pattern="y-Axis" foreground="EFAD65" isBold="true"/>
+    <tokens name="custom-showLegend" pattern="showLegend" foreground="EFAD65" isBold="true"/>
+    <tokens name="custom-legendSide" pattern="legendSide" foreground="EFAD65" isBold="true"/>
+    <tokens name="custom-Series" pattern="Series" foreground="EFAD65" isBold="true"/>
+
+    <tokens name="custom-function" pattern="function" foreground="2F7F01" isBold="true"/>
+    <tokens name="custom-expression" pattern="expression" foreground="74A955" isBold="true"/>
+    <tokens name="custom-start" pattern="start" foreground="74A955" isBold="true"/>
+    <tokens name="custom-end" pattern="end" foreground="74A955" isBold="true"/>
+    <tokens name="custom-step" pattern="step" foreground="74A955" isBold="true"/>
+    
+    <tokens name="custom-LEFT" pattern="LEFT" foreground="A000FC" isBold="true"/>
+    <tokens name="custom-RIGHT" pattern="RIGHT" foreground="A000FC" isBold="true"/>
+    <tokens name="custom-TOP" pattern="TOP" foreground="A000FC" isBold="true"/>
+    <tokens name="custom-BOTTOM" pattern="BOTTOM" foreground="A000FC" isBold="true"/>
+  </tokenProvider>
+</monaco:Monaco>
